@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(61, 60, 60);
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+}
+
+header li {
+    display: inline;
+    float: left;
+}
+
+header a {
+    color: white;
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+header li a:hover {
+    text-decoration: underline;
+}
+
+.one {
+    height: 700px;
+    color: white;
+    background-image: url(seneca\ copy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.one h1 {
+    font-size: 60px;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.one p {
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+}
+
+.one ul {
+    color: rgb(255, 147, 6);
+    font-size: 15px;
+}
+
+.two h1 {
+    font-size: 50px;
+    color: white;
+    background-color: rgb(58, 70, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.two p {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(58, 70, 58);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+}
+
+.specials {
+    display: flex;
+    background-color: rgb(236, 241, 182);
+    justify-content: space-between;
+}
+
+.specials div {
+    width: 300px;
+    text-align: center;
+}
+
+.specials img {
+    width: 100%;
+}
+
+.specials h3 {
+    font-size: 20px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.three h1 {
+    font-size: 50px;
+    color: white;
+    background-color: rgb(58, 70, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.three p {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(58, 70, 58);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+}
+
+.movies {
+    display: flex;
+    background-color: rgb(236, 241, 182);
+    justify-content: space-between;
+}
+
+.movies div {
+    width: 300px;
+    text-align: center;
+}
+
+.movies img {
+    width: 100%;
+}
+
+.movies h3 {
+    font-size: 20px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.four {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(58, 70, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    line-height: 40px;
+}
+
+.four div {
+    display: flex;
+}
+
+.four p {
+    padding-left: 20px;
+}
+
+.End {
+    background-color: rgb(61, 60, 60);
+    list-style-type: none;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
